@@ -26,8 +26,6 @@ public class PlayerTest {
 
         assertEquals(expected, actual);
     }
-
-
     @Test
     public void shouldSumHoursIfGameInstalled() {
         GameStore store = new GameStore();
@@ -48,12 +46,12 @@ public class PlayerTest {
         Game game = store.publishGame("Нетология Баттл Онлайн", "Аркады");
 
         Player player = new Player("Petya");
-        
-        int expected = 3;
-        int actual = player.play(game, 3);
-        assertEquals(expected, actual);
+
+        Assertions.assertThrowsEquals(expected, actual);
 
     }
+
+
 
     // другие ваши тесты
 
