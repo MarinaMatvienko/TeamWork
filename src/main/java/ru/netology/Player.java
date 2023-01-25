@@ -52,13 +52,13 @@ public class Player {
      * суммирует время, проигранное во все игры этого жанра этим игроком
      */
     public int sumGenre(String genre) {
-        int sumStart =0;
-        int sumFinish=0;
+        int sumStart = 0;
+        int sumFinish = 0;
         for (Game game : playedTime.keySet()) {
             Integer time = playedTime.get(game);
             if (game.getGenre().equals(genre)) {
-                sumFinish = sumStart+playedTime.get(game);
-                sumStart=sumFinish;
+                sumFinish = sumStart + playedTime.get(game);
+                sumStart = sumFinish;
             }
         }
         return sumFinish;
@@ -75,10 +75,10 @@ public class Player {
 
         for (Game game : playedTime.keySet()) {
             Integer time = playedTime.get(game);
-            if (game.getGenre().equals(genre)&& playedTime.get(game)>mostPlayerTime){
+            if (game.getGenre().equals(genre) && playedTime.get(game) > mostPlayerTime) {
                 mostPlayerTime = playedTime.get(game);
                 gameResult = game.getTitle();
-                            }
+            }
         }
         return gameResult;
     }
