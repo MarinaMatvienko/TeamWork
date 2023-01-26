@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.netology.PlayerTest" time="0.139" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.netology.PlayerTest" time="0.122" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="C:\Users\user\IdeaProjects\TeamWork\target\test-classes;C:\Users\user\IdeaProjects\TeamWork\target\classes;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\user\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\user\.m2\repository\org\mockito\mockito-core\4.6.1\mockito-core-4.6.1.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.10\byte-buddy-agent-1.12.10.jar;C:\Users\user\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;"/>
+    <property name="java.class.path" value="C:\Users\user\IdeaProjects\TeamWork\target\test-classes;C:\Users\user\IdeaProjects\TeamWork\target\classes;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
     <property name="java.vm.vendor" value="Amazon.com Inc."/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Users\user\.jdks\corretto-11.0.17\bin"/>
-    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire1544747953659857610\surefirebooter10780843338538820258.jar C:\Users\user\AppData\Local\Temp\surefire1544747953659857610 2023-01-24T19-22-07_852-jvmRun1 surefire15776552761307000499tmp surefire_07200308902056714266tmp"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire4030525146684604261\surefirebooter13990922879630810770.jar C:\Users\user\AppData\Local\Temp\surefire4030525146684604261 2023-01-26T11-07-12_167-jvmRun1 surefire16953008950350238896tmp surefire_01711849731992041294tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\user\IdeaProjects\TeamWork\target\test-classes;C:\Users\user\IdeaProjects\TeamWork\target\classes;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\user\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\user\.m2\repository\org\mockito\mockito-core\4.6.1\mockito-core-4.6.1.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.10\byte-buddy-agent-1.12.10.jar;C:\Users\user\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\user\IdeaProjects\TeamWork\target\test-classes;C:\Users\user\IdeaProjects\TeamWork\target\classes;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\user\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\user\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\user\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\user"/>
     <property name="user.language" value="ru"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire1544747953659857610\surefirebooter10780843338538820258.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire4030525146684604261\surefirebooter13990922879630810770.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.17+8-LTS"/>
@@ -61,13 +61,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="shouldPlaySumHoursIfGameNotInstalled" classname="ru.netology.PlayerTest" time="0.071"/>
-  <testcase name="shouldMostPlayerByGenreIfSomeGamesAnotherGenre" classname="ru.netology.PlayerTest" time="0.01"/>
-  <testcase name="shouldMostPlayerByGenreIfSomeGamesOneGenre" classname="ru.netology.PlayerTest" time="0.001"/>
-  <testcase name="shouldSumGenreIfOneGame" classname="ru.netology.PlayerTest" time="0.003"/>
-  <testcase name="shouldPlaySumHoursIfGameInstalled" classname="ru.netology.PlayerTest" time="0.002"/>
-  <testcase name="shouldSumGenreIfSomeGamesByAnotherGenre" classname="ru.netology.PlayerTest" time="0.001"/>
-  <testcase name="shouldMostPlayerByGenreIfNoGenre" classname="ru.netology.PlayerTest" time="0.001"/>
-  <testcase name="shouldMostPlayerByGenreIfOneGame" classname="ru.netology.PlayerTest" time="0.003"/>
-  <testcase name="shouldSumGenreIfSomeGamesByOneGenre" classname="ru.netology.PlayerTest" time="0.004"/>
+  <testcase name="shouldSumHoursIfGameInstalled" classname="ru.netology.PlayerTest" time="0.041"/>
+  <testcase name="shouldPlaySumHoursIfGameNotInstalled" classname="ru.netology.PlayerTest" time="0.001"/>
+  <testcase name="shouldMostPlayerByGenreIfSomeGamesOneGenre" classname="ru.netology.PlayerTest" time="0.003"/>
+  <testcase name="shouldSumHoursIfGameNotInstalled" classname="ru.netology.PlayerTest" time="0"/>
+  <testcase name="shouldSumGenreIfOneGame" classname="ru.netology.PlayerTest" time="0.008"/>
+  <testcase name="shouldPlaySumHoursIfGameInstalled" classname="ru.netology.PlayerTest" time="0.003"/>
+  <testcase name="shouldSumGenreIfSomeGame" classname="ru.netology.PlayerTest" time="0.004"/>
+  <testcase name="shouldSumGenreIfSomeGamesByAnotherGenre" classname="ru.netology.PlayerTest" time="0.012"/>
+  <testcase name="shouldMostPlayerByGenreIfOneGame" classname="ru.netology.PlayerTest" time="0.004"/>
+  <testcase name="shouldSumGenreIfSomeGamesByOneGenre" classname="ru.netology.PlayerTest" time="0"/>
 </testsuite>
